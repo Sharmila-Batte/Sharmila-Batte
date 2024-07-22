@@ -1,0 +1,19 @@
+class Test 
+{
+	public static void main(String[] args) 
+	{
+		byte byteVariable=5;
+		short shortVariabe=100;
+		int intVariable=200;
+	    long longVariable;
+		float floatVariable=12.6f;
+		double doubleVariable;
+		char charVariabl='S';
+		boolean booleanVariable;
+		 System.out.println("byteVariable="+byteVariable);
+         System.out.println("shortVariable="+shortVariabe);
+		  System.out.println("intVariable="+intVariable);
+		   System.out.println("floatVariable="+floatVariable);
+		   System.out.println("charVariabl="+charVariabl);
+	}
+}

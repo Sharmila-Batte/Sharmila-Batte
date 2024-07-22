@@ -1,0 +1,16 @@
+class VariablesInitialize 
+{
+	public static void main(String[] args) 
+	{   byte byteVariable=10;
+		short shortVariable=15;
+		int intVariable=-20;
+	    long longVariable=100;
+		float floatVariable=8.9f;
+		double doubleVariable=1.5;
+		char charVariable='a';
+		boolean booleanVariable=true;
+
+		System.out.println("Hello World!");
+
+	}
+}
