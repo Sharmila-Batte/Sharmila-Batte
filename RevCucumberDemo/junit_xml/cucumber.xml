@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="96.5">
+    <testcase classname="Covers multiple search validation of google" name="validate search functionality withSoftware Testing" time="14.884">
+        <system-out><![CDATA[Given User already opened web browser and having google search page opened..passed
+When User search text as Software Testing on google.........................passed
+And user click on enter.....................................................passed
+Then User should navigate to google home page having title Software Testing - Google Search.passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Covers multiple search validation of google" name="validate search functionality withManual Testing" time="9.761">
+        <system-out><![CDATA[Given User already opened web browser and having google search page opened..passed
+When User search text as Manual Testing on google...........................passed
+And user click on enter.....................................................passed
+Then User should navigate to google home page having title Manual Testing - Google Search.passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Covers multiple search validation of google" name="validate search functionality withAutomation testing" time="8.293">
+        <system-out><![CDATA[Given User already opened web browser and having google search page opened..passed
+When User search text as Automation testing on google.......................passed
+And user click on enter.....................................................passed
+Then User should navigate to google home page having title Automation testing - Google Search.passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="This feature file is create to cover testing of OrangeHRM PIM flow" name="Create PIM and validate it" time="62.689">
+        <system-out><![CDATA[Given User is on OrangeHRM login page of OrangeHRM PIM POM..................passed
+And User login successfully with valid data for OrangeHRM PIM POM and clicks on login button of OrangeHRM PIM POM.passed
+And user clicks on PIM link of OrangeHRM PIM POM............................passed
+When User click on add button of OrangeHRM PIM POM..........................passed
+And Type input firstnm as Sharmila ,lastnm as Malkar ,empid as 4545 and click on save button of PIM create of OrangeHRM PIM POM.passed
+Then Navigate to PIM home page of OrangeHRM PIM POM.........................passed
+And Search newly created empid as 4545 of PIM create and Click on search button PIM create of OrangeHRM PIM POM.passed
+And Verify the result of PIM create for OrangeHRM POM.......................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

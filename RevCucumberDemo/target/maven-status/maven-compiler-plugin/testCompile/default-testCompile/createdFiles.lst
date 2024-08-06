@@ -1,0 +1,12 @@
+webpages_OrangeHRM\OrangeHRM_HomePage.class
+webpages_OrangeHRM\PimHomePage.class
+stepdef\SauceDemoLogin.class
+webpages_OrangeHRM\AddEmployeePage.class
+stepdef\OrangeHRMPIMPOMTest.class
+stepdef\VTigerLead.class
+stepdef\OrangeHRMLoginTest.class
+stepdef\OrangeHrmPIM.class
+webpages_OrangeHRM\OrangeHRM_Login.class
+webpages_OrangeHRM\PersonalDetailsPage.class
+stepdef\GoogleSearchTest.class
+runner\TestRunner.class
